@@ -25,3 +25,7 @@ Test shopping cart to practice retrieving data from an API and building a UI to 
 
 
 Shop items from https://fakestoreapi.com">fakestoreapi.com
+
+##  Deployed in NETLIFY
+https://chimerical-cactus-3670eb.netlify.app/
+# CHECK IT OUT
