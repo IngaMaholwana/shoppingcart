@@ -1,0 +1,53 @@
+.Home {
+  width: 100%;
+  background-color: var(--color-light);
+  overflow: hidden;
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  padding: 0 1em 0 1em;
+  height: calc(100vh - 48px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.title {
+  padding-top: 1em;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+
+
+
+
+.shopLink {
+  display: inline-block;
+  font-family: var(--font2);
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: var(--color-contrast);
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  margin: 0.2em 0 2em 0;
+  /* min-width: 10em; */
+}
+
+
+.attributions {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 0.9rem;
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    display: flex;
+  }
+}

@@ -1,0 +1,40 @@
+.Navbar {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2em;
+  background-color: var(--color-mid);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font2);
+  font-size: 1.5rem;
+  height: 48px;
+}
+
+.Navlink {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+  gap: 1em;
+  margin-right: auto;
+}
+
+.cart {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  cursor: pointer;
+}
+
+.cartIcon {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/cart.svg");
+  width: 1em;
+  height: 1em;
+}
